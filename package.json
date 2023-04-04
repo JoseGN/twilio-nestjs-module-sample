@@ -1,0 +1,53 @@
+{
+  "name": "twilio-nestjs-module-sample",
+  "version": "0.0.0",
+  "description": "example of node-twilio API lib integration from scratch",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@nestjs/common": "^7.4.4",
+    "@nestjs/config": "^0.4.2",
+    "@nestjs/core": "^7.4.4",
+    "rxjs": "^6.6.3",
+    "twilio": "^3.49.4"
+  },
+  "devDependencies": {
+    "@nestjs/cli": "^7.5.1",
+    "@nestjs/schematics": "^7.1.2",
+    "@nestjs/testing": "^7.4.4",
+    "@types/jest": "25.1.4",
+    "@types/node": "^13.13.21",
+    "@types/supertest": "^2.0.10",
+    "@typescript-eslint/eslint-plugin": "^2.34.0",
+    "@typescript-eslint/parser": "^2.34.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.12.0",
+    "eslint-plugin-import": "^2.22.1",
+    "jest": "^25.1.0",
+    "prettier": "^1.19.1",
+    "supertest": "^4.0.2",
+    "ts-jest": "25.2.1",
+    "ts-loader": "^6.2.1",
+    "ts-node": "^8.10.2",
+    "tsconfig-paths": "^3.9.0",
+    "typescript": "^3.9.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoseGN/twilio-nestjs-module-sample.git"
+  },
+  "keywords": [
+    "nestjs",
+    "node-twilio",
+    "twilio",
+    "api"
+  ],
+  "author": "J Alberto García N <jose.enap@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JoseGN/twilio-nestjs-module-sample/issues"
+  },
+  "homepage": "https://github.com/JoseGN/twilio-nestjs-module-sample#readme"
+}
